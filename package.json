@@ -4,8 +4,8 @@
   "description": "A 🔥 BLAZINGLY FAST 🔥 JavaScript to JavaScript compiler",
   "main": "index.js",
   "type": "module",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "bin": {
+    "jsc": "index.js"
   },
   "repository": {
     "type": "git",
