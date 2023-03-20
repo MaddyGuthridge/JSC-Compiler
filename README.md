@@ -1,6 +1,6 @@
 # JSC Compiler
 
-A 🔥 BLAZINGLY FAST 🔥, but ❄️ refreshingly simple ❄️ JavaScript-to-JavaScript
+A 🔥 BLAZINGLY FAST 🔥, but ❄️ refreshingly simple ❄️ JavaScript to JavaScript
 compiler.
 
 ## Why?

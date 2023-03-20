@@ -4,8 +4,8 @@ import { program } from 'commander';
 
 program
   .name('jsc')
-  .description('A 🔥 BLAZINGLY FAST 🔥 JavaScript to JavaScript compiler')
-  .version('1.0.0')
+  .description('A 🔥 BLAZINGLY FAST 🔥, but ❄️ refreshingly simple ❄️ JavaScript to JavaScript compiler')
+  .version('1.0.1')
   .argument('<input>')
   .requiredOption('-o <output>');
 
