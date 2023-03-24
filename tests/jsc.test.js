@@ -24,6 +24,8 @@ test('compiles directories', () => {
 
   expect(fs.existsSync('./tests/assets/out')).toStrictEqual(true);
 
-  // Make sure
-  expect(fs.existsSync('./tests/assets/out')).toStrictEqual(true);
+  // Make sure the contents of the directory matches, since that shows that
+  // the compilation succeeded
+  expect(fs.existsSync('./tests/assets/out/index.js')).toStrictEqual(true);
+  expect(fs.existsSync('./tests/assets/out/otherFile.js')).toStrictEqual(true);
 });

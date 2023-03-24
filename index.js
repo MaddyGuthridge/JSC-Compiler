@@ -7,5 +7,5 @@ import fs from 'fs';
  * @param {string} output output file name or directory name
  */
 export function compile(input, output) {
-  fs.cpSync(input, output);
+  fs.cpSync(input, output, { recursive: true });
 }
