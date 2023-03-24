@@ -1,10 +1,13 @@
 {
     "env": {
-        "browser": true,
-        "es2021": true
+        "node": true,
+        "es2021": true,
+        "jest": true
     },
     "extends": "eslint:recommended",
-    "overrides": [
+    "overrides": [],
+    "plugins": [
+        "jest"
     ],
     "parserOptions": {
         "ecmaVersion": "latest",
@@ -21,7 +24,11 @@
         ],
         "quotes": [
             "error",
-            "single"
+            "single",
+            {
+                "avoidEscape": true,
+                "allowTemplateLiterals": false
+            }
         ],
         "semi": [
             "error",
