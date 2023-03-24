@@ -8,7 +8,8 @@
     "jsc": "jsc.js"
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -29,6 +30,8 @@
     "commander": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.36.0"
+    "eslint": "^8.36.0",
+    "eslint-plugin-jest": "^27.2.1",
+    "jest": "^29.5.0"
   }
 }
