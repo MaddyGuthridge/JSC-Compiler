@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "jsc": "index.js"
+    "jsc": "jsc.js"
   },
   "repository": {
     "type": "git",
