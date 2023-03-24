@@ -7,6 +7,9 @@
   "bin": {
     "jsc": "jsc.js"
   },
+  "scripts": {
+    "lint": "eslint ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MiguelGuthridge/JSC-Compiler.git"
@@ -24,5 +27,8 @@
   "homepage": "https://github.com/MiguelGuthridge/JSC-Compiler#readme",
   "dependencies": {
     "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.36.0"
   }
 }
