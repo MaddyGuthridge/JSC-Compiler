@@ -29,3 +29,17 @@ test('compiles directories', () => {
   expect(fs.existsSync('./tests/assets/out/index.js')).toStrictEqual(true);
   expect(fs.existsSync('./tests/assets/out/otherFile.js')).toStrictEqual(true);
 });
+
+
+test('compiles JS files in-place', () => {
+  const inFile = './tests/assets/inPlace.js';
+
+  // Read the contents of the file beforehand
+  const originalContents = fs.readFileSync(inFile);
+
+  compile(inFile, inFile);
+
+  // Make sure the new contents of the files matches, since that shows that the
+  // compilation succeeded
+  expect(fs.readFileSync(inFile)).toStrictEqual(originalContents);
+});
