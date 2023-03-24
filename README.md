@@ -33,3 +33,10 @@ Install the **JSC Compiler** using the command `npm install -D jsc-compiler`.
 
 You can then run it using
 `npx jsc <input file/directory> <output file/directory>`.
+
+## Contributing
+
+I'd love to have your help developing this awesome project! Feel free to open 
+up issues and pull requests to address any issues you may find in the code!
+
+Note that JSC uses Babel to ensure that the Jest tests run correctly.
