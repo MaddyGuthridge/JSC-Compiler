@@ -20,7 +20,7 @@ export function compile(input, output) {
     // Then copy it back
     fs.cpSync(newOutFile, outFile);
     // Finally, clean up the temporary file
-    fs.rmdirSync(tempDir, { recursive: true });
+    fs.rmSync(tempDir, { recursive: true });
     return;
   } else {
     // Normal compilation
