@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/MiguelGuthridge/JSC-Compiler.git"
+    "url": "git+https://github.com/MaddyGuthridge/JSC-Compiler.git"
   },
   "keywords": [
     "compiler",
     "javascript",
     "babel"
   ],
-  "author": "Miguel Guthridge",
+  "author": "Maddy Guthridge",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/MiguelGuthridge/JSC-Compiler/issues"
+    "url": "https://github.com/MaddyGuthridge/JSC-Compiler/issues"
   },
-  "homepage": "https://github.com/MiguelGuthridge/JSC-Compiler#readme",
+  "homepage": "https://github.com/MaddyGuthridge/JSC-Compiler#readme",
   "dependencies": {
     "commander": "^10.0.0"
   },
