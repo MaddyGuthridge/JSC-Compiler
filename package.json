@@ -1,6 +1,6 @@
 {
   "name": "jsc-compiler",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A 🔥 BLAZINGLY FAST 🔥, but ❄️ refreshingly simple ❄️ JavaScript to JavaScript compiler",
   "main": "index.js",
   "type": "module",
